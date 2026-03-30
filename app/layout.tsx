@@ -33,11 +33,13 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon-light-32x32.svg',
+        type: 'image/svg+xml',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon-dark-32x32.svg',
+        type: 'image/svg+xml',
         media: '(prefers-color-scheme: dark)',
       },
       {
@@ -45,7 +47,7 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/icon.svg',
   },
 }
 
