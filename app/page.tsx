@@ -344,7 +344,7 @@ export default function BehaviouralEconomicsPage() {
             <div className="mb-16" data-aos="fade-right">
               <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#FF5C00] mb-4 block">01 / The Problem</span>
               <h2 className="font-fraunces text-3xl md:text-4xl lg:text-5xl font-bold text-[#0D0D0D] leading-tight max-w-3xl text-balance">
-                Expected Utility Theory assumed you&apos;d just... enrol.
+                Expected Utility Theory assumed you&apos;d just... enroll.
               </h2>
             </div>
 

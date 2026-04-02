@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next'
 import { Fraunces, Space_Grotesk, Space_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const fraunces = Fraunces({ 
@@ -66,7 +65,6 @@ export default function RootLayout({
     <html lang="en" className={`${fraunces.variable} ${spaceGrotesk.variable} ${spaceMono.variable}`}>
       <body className="font-sans antialiased bg-[#FFFBF0]">
         {children}
-        <Analytics />
       </body>
     </html>
   )
